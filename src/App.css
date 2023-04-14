@@ -1,0 +1,75 @@
+.continer{
+    width: 1400px;
+    height: 1000px;
+    border: 1px solid;
+    margin: 0 auto;
+    }
+
+    .cardimgg{
+        width: 130px;
+    }
+    .card{
+        display: flex;
+    }
+    .incdec{
+      margin-left: 70%;
+    }
+    .continer{
+        width: 1400px;
+        height: 1000px;
+        border: 1px solid;
+        margin: 0 auto;
+    }
+    .card{
+        width: 100%;
+        display: flex;
+    }
+    .cards{
+        width: 50%;
+    }
+    
+    .cardimgg{
+        width: 140px;
+    }
+    
+    .cardtitle{
+        font-size: 30px;
+    }
+    .cardprice{
+        font-size: 20px;
+    }
+    .cardremove{
+        width: 100px;
+    }
+    .incdec{
+        width: 50%;
+        margin-left: 50%;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .amount{
+        font-size: 20px;
+    }
+    
+    .navbar{
+        width: 100%;
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 500px;
+    }
+    
+    .clerbtn{
+        width: 180px;
+        height: 30px;
+    }
+    
+    .inc{
+        width: 40px;
+        height: 40px;
+    }
+    .dec{
+        width: 40px;
+        height: 40px;
+    }
