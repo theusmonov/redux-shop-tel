@@ -7,7 +7,7 @@ import { gettotal } from './Cart';
 
 
 
-export default function Posts() {
+export default function Posts({user}) {
    
 
    
@@ -20,20 +20,14 @@ export default function Posts() {
       dispatch(gettotal())
     }, [data])
 
-
-  
-  
-  
-
   return (
-    
-    <div>
+    <div className='postitem'>
+      <h2 className='salom'> Assalomu Alaykum {user
+      .name}</h2>
        {data.map((item) => {
         return (
             <Post key={item.id} {...item} />
-
         )
-        
        })}
        <h2>{total.toFixed(2)}</h2>
     </div>

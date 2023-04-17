@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import Phone from "./TelbazarArray";
-import { useEffect } from "react";
+
 
 const initialState = {
     loading: false,

@@ -15,7 +15,7 @@ export default function Navbar() {
     <div className='navbar'>
       <h2>Tel Shop</h2>
       <button className='clerbtn' onClick={() => dispatch(clearCart())}>Clearcart</button>
-      <p>{amount}</p>
+      <p className='amount2'>{amount}</p>
     </div>
   )
 }

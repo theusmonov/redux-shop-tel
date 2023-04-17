@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect} from 'react'
 import { remove } from './Cart'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch, } from 'react-redux'
 import {increment} from './Cart'
 import {decrement} from './Cart'
 
